@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script src="js/getUrlParms.js"></script>
+    <script src="js/stock.service.js"></script>
+    <link rel="stylesheet" href="css/stock-edit.component.css" />
+    <script src="js/stock-edit.component.js"></script>
+    <script src="js/stock.common.js"></script>
+</head>
+<body>
+    <h3>Stock Edit</h3>
+    <table class="table table-sm">
+        <tr>
+            <td>Id:</td>
+            <td><input id="id" type="text" size="8" disabled></td>
+        </tr>
+        <tr>
+            <td>Symbol:</td>
+            <td><input id="symbol" type="text" size="10"></td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input id="name" type="text" size="30"></td>
+        </tr>
+        <tr>
+            <td>Location:</td>
+            <td><input id="location" type="text" size="30"></td>
+        </tr>
+        <tr>
+            <td>Current:</td>
+            <td><input id="current" type="number" size="15"></td>
+        </tr>
+        <tr>
+            <td>Paid:</td>
+            <td><input id="paid" type="number" size="15"></td>
+        </tr>
+        <tr>
+            <td>Gain/Loss:</td>
+            <td><input id="gain_loss" type="number" size="15"></td>
+        </tr>
+        <tr>
+            <td>Shares:</td>
+            <td><input id="shares" type="number" size="15"></td>
+        </tr>
+        <tr>
+            <td>Value:</td>
+            <td><input id="value" type="number" size="15"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button id="save" class="btn btn-primary">Save</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

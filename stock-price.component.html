@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <script src="js/getUrlParms.js"></script>
+    <script src="js/stock.service.js"></script>
+    <script src="js/stock-price.component.js"></script>
+    <script src="js/stock.common.js"></script>
+    <link rel="stylesheet" href="css/stock-list.component.css">
+    <title>Stock Price</title>
+</head>
+<body>
+    <h3>Stock Price List</h3>
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Symbol</td>
+                <td>Name</td>
+                <td>Location</td>
+                <td>Current</td>
+                <td>Paid</td>
+                <td>Gain/Loss</td>
+                <td>Shares</td>
+                <td>Value</td>
+            </tr>
+        </thead>
+        <tbody id="stock"></tbody>
+    </table>
+</body>
+</html>
